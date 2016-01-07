@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= pageTitle || 'Heroku Go Deployment Demo'
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+  body
+    .jumbotron
+      .container
+        h1.text-center= header || 'Hello World!'
+        p.text-center Go apps are a snap to deploy, a joy to manage, and a cinch to scale on Heroku.
+        p.text-center Come see why thousands of Go devs are hosting their apps on Heroku.
+        .lang-logo
+          span.helper
+          img(src='https://cldup.com/fF8iPEeL8V.png')
+        p.text-center Learn more at <a href="#">https://www.heroku.com/go</a>

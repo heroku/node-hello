@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= pageTitle || 'Heroku NodeJS Deployment Demo'
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+  body
+    .jumbotron
+      .container
+        h1.text-center= header || 'Hello World!'
+        p.text-center NodeJS apps are a snap to deploy, a joy to manage, and a cinch to scale on Heroku.
+        p.text-center Come see why thousands of NodeJS devs are hosting their apps on Heroku.
+        .lang-logo
+          span.helper
+          img(src='https://d2ifv2gvanh00s.cloudfront.net/assets/public/getting-started/node-logo_2x-2023f89872fa8c0f710dc26eb28f48baf14bfb4a41909f92350592e15a7f9eac.png')
+        p.text-center Learn more at <a href="#">https://www.heroku.com/node</a>
