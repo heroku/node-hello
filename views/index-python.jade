@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= pageTitle || 'Heroku Python Deployment Demo'
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+  body
+    .jumbotron
+      .container
+        h1.text-center= header || 'Hello World!'
+        p.text-center Python apps are a snap to deploy, a joy to manage, and a cinch to scale on Heroku.
+        p.text-center Come see why thousands of Python devs are hosting their apps on Heroku.
+        .lang-logo
+          span.helper
+          img(src='https://d2ifv2gvanh00s.cloudfront.net/assets/public/getting-started/python-logo_2x-999c8c56554e563b0bdf5fca4dda5752c2cc37cfe35a17ccd0f793a7cb6b120b.png')
+        p.text-center Learn more at <a href="#">https://www.heroku.com/python</a>

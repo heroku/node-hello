@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= pageTitle || 'Heroku PHP Deployment Demo'
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+  body
+    .jumbotron
+      .container
+        h1.text-center= header || 'Hello World!'
+        p.text-center PHP apps are a snap to deploy, a joy to manage, and a cinch to scale on Heroku.
+        p.text-center Come see why thousands of PHP devs are hosting their apps on Heroku.
+        .lang-logo
+          span.helper
+          img(src='https://d2ifv2gvanh00s.cloudfront.net/assets/public/getting-started/php-logo-1f3c9d360261a4e6320d15e086ec6fa5f5d9628ac963c63cf75a4ee5c0bbef15.png')
+        p.text-center Learn more at <a href="#">https://www.heroku.com/php</a>

@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= pageTitle || 'Heroku Ruby Deployment Demo'
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+  body
+    .jumbotron
+      .container
+        h1.text-center= header || 'Hello World!'
+        p.text-center Ruby apps are a snap to deploy, a joy to manage, and a cinch to scale on Heroku.
+        p.text-center Come see why thousands of Ruby devs are hosting their apps on Heroku.
+        .lang-logo
+          span.helper
+          img(src='https://d2ifv2gvanh00s.cloudfront.net/assets/public/getting-started/ruby-logo_2x-76aed07b6cc15233e13f68d7214977fe65aa09f36b495f64735ebfb1755283e9.png')
+        p.text-center Learn more at <a href="#">https://www.heroku.com/ruby</a>
